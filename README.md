@@ -19,34 +19,37 @@ TypeScript — type safety
 ✨ Features
 ✅ Clean, minimalist design inspired by Apple
 ✅ Smooth scroll-based animations & transitions
-✅ Responsive across devices (mobile-first design)
+✅ Fully responsive across devices (mobile-first design)
 ✅ Interactive components:
 
-Color / model selector
+Model selector (instead of color)
 
 Animated feature cards
-✅ Page loader with fun robot GIF
-✅ Micro-interactions on hover, buttons
+✅ Page loader with dancing robot GIF
+✅ Micro-interactions on hover & buttons
 
-Framer Motion used for scroll-triggered fade-in / slide-up animations
+💡 Implementation Notes
+Framer Motion handles scroll-triggered fade-ins, slide-ups, and transitions.
 
-Shadcn UI used for buttons & cards to ensure consistent styling
+Shadcn UI provides consistent, elegant components (buttons, cards).
 
-Chose Tailwind + Next.js App Router for clean structure and flexibility
+Next.js + Tailwind CSS chosen for clean structure, speed, and flexibility.
 
 ⚡ Setup & Run Locally
 bash
 Copy
 Edit
-git clone https://github.com/your-username/giri-landing-page.git
+git clone https://github.com/saivivek45/giri-landing-page.git
 cd giri-landing-page
 npm install
 npm run dev
 🌐 Deployment
-Deployed on Vercel → auto-updated on main branch push
+Hosted on Vercel → auto-updated on push to main.
+GitHub: https://github.com/saivivek45/giri-landing-page
 
-## 🚀 Live Demo  
-👉 [View on Vercel](https://your-vercel-link.vercel.app)  
+✅ Next Steps
 
-## 📦 GitHub Repo  
-👉 [View on GitHub](https://github.com/your-username/giri-landing-page)
+Replace the Vercel link above with your actual deployment link.
+
+Add screenshots or GIF previews of the landing page!
+
