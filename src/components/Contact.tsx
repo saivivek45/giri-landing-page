@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact: React.FC = () => {
   const [email, setEmail] = useState("");
@@ -20,8 +20,9 @@ const Contact: React.FC = () => {
       <div className="max-w-md mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-center">Contact Us</h2>
         <p className="text-sm text-gray-400 mb-6 text-center">
-          Have questions about GiRi? We'd love to hear from you.
+          Have questions about GiRi? We&apos;d love to hear from you.
         </p>
+
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <input
